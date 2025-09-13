@@ -13,10 +13,13 @@ Actively working on projects bridging **AI and real-world applications** in heal
 
 ---
 
-## 🔭 Current Work  
-- Developing a **heterogeneous graph-based framework** for colorectal cancer risk prediction
-- Research collaboration with the **Ministry of Food and Drug Safety (MFDS)**, focusing on biomedical statistics and regulatory science  
-- Joint project with **Kolon Pharmaceuticals** on manufacturing data analysis and process optimization
+- ## 🧑‍💻 Experience
+- **Researcher**, Chungnam National University  
+  Developing a heterogeneous graph-based framework for **colorectal cancer risk prediction**  
+- **Research Collaboration**, Ministry of Food and Drug Safety (MFDS)  
+  Biomedical statistics & regulatory science projects  
+- **Joint Project**, Kolon Pharmaceuticals  
+  Manufacturing data analysis & process optimization  
 
 ---
 
