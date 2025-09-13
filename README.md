@@ -13,7 +13,7 @@ Actively working on projects bridging **AI and real-world applications** in heal
 
 ---
 
-- ## 💻 Experience
+## 💻 Experience
 - **Researcher**, Chungnam National University  
   Developing a heterogeneous graph-based framework for **colorectal cancer risk prediction**  
 - **Research Collaboration**, Ministry of Food and Drug Safety (MFDS)  
