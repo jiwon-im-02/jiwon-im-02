@@ -1,4 +1,4 @@
-# 👋 Hi! I'm Jiwon Im (임지원)
+## 👋 Hi! I'm Jiwon Im (임지원)
 
 I'm a Master's student at **Chungnam National University, Dept. of Statistics & Data Science**,  
 focusing on **Deep Learning, Graph Neural Networks, Biomedical Statistics, and Pharmaceutical Manufacturing Data**.  
