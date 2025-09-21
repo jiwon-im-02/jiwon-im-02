@@ -15,13 +15,14 @@ My academic focus lies in **Medical Statistics, Deep Learning, and Manufacturing
 ## 📌 Research Projects
 
 - **Kolon Pharmaceuticals**  
-  *Statistical analysis for developing and validating alternative phototoxicity testing methods using human skin models.*  
+  *Statistical analysis of fluidized-bed coating processes (KTP) to identify key factors affecting drug content and dissolution, address process instability, and propose optimized operating guidelines for improving yield and product quality.*  
 
 - **Ministry of Food and Drug Safety (MFDS, South Korea)**  
-  *Collaborative project on statistical validation and regulatory-oriented pharmaceutical research.*  
+  *Statistical analysis for developing and validating alternative phototoxicity testing methods using human skin models.*    
 
 - **Master’s Thesis (CNU)**  
   *Predicting colorectal cancer using heterogeneous graphs constructed from Hi-C genomic data with Heterogeneous Graph Transformer (HGT).*  
+
 
 ---
 
