@@ -44,6 +44,8 @@ I care about data quality and reproducibility: I work out where a model or a dec
 
 ### 🚀 Projects
 
+🔗 K-DATA SCIENCE 해커톤 3개 프로젝트의 코드는 [k-data-science-hackathon](https://github.com/jiwon-im-02/k-data-science-hackathon)에서 볼 수 있습니다.
+
 *   **🧬 Sparse Weighted GCN for Hi-C Colorectal Cancer Classification** (2024 – 2025)  
     Hi-C contact matrices are noisy, so a plain GCN also learns the noise. Kept only informative contacts via bi-square kernel weights with adaptive bandwidth, evaluated with nested 10-fold CV on 102 subjects, and compared against GCN, CNN, GraphSAGE and GAT.  
     → **92.2% accuracy** (bootstrap 95% CI 87.3–97.1%), F1 94.4%, ~36% less training time. `PyTorch` `GNN` `Hi-C`
@@ -51,10 +53,6 @@ I care about data quality and reproducibility: I work out where a model or a dec
 *   **🌙 Low-Light Robust Skeleton-Based Distress Detection** (2025 – present, M.S. research)  
     Skeleton graph (CTR-GCN and other GCN backbones) fused with CNN scene context, trained with illumination-aware augmentation. Built ~114K clips from NTU RGB+D and synthetic Mild/Moderate/Extreme low-light versions, filtering failed or low-confidence pose extractions.  
     → **+4.1%p accuracy** in the darkest condition with only 1.51% extra parameters, ~0.30 ms inference. `PyTorch` `YOLOv8-Pose` `ST-GCN` `CTR-GCN`
-
-*   **🏪 OneWay Guard: Real-Time Abnormal Behavior Detection for Unmanned Stores** (2025, team lead)  
-    End-to-end prototype: YOLOv8-Pose 17-joint sequences + ResNet scene features → CTR-GCN classifier → TorchScript export → React (Vite) PWA real-time monitoring dashboard. Joint-confidence thresholds set from normal-condition data distributions, with Kalman filter smoothing.  
-    → 🏆 **우수상**, 충남대 Data Science Challenge (28개 팀). `PyTorch` `TorchScript` `React` `PWA`
 
 *   **🤖 Wavelet Scattering + Transformer for Robotic Trajectory Anomaly Detection** (2025, co-author)  
     Unsupervised anomaly detection on multivariate sensor time series trained on normal patterns only: wavelet scattering features that are robust to time shifts, plus a Transformer encoder for temporal dependencies. Catches subtle vibration bursts and frequency drift. `Time Series` `Transformer`
@@ -71,16 +69,13 @@ I care about data quality and reproducibility: I work out where a model or a dec
     SBERT embeddings of ~1,200 AI Hub emotional dialogues → PCA (768→50) → soft-cosine similarity graph → GraphSAGE emotion classification.  
     → 🏆 **창의상** (본선 26개 팀). `NLP` `SBERT` `GraphSAGE`
 
-*   **🗺️ Spatial Analysis of Vacant Houses and Crime in Busan** (2024 통계데이터활용대회)  
-    GIS + geographically weighted regression (GWR) to model regional heterogeneity, using Statistics Korea microdata. `R` `GWR` `Spatial Statistics`
-
 <details>
 <summary><b>🏭 Industry–Academia Statistical Consulting</b></summary>
 
-*   **Phototoxicity & eye-irritation alternative test methods**: Korea Testing & Research Institute (KTR) (2024). Inter-lab reproducibility across 4 labs (ICC, kappa; WLR/BLR 12/12), ROC-optimal cut-off (AUC 0.972), outlier-robust acceptance criteria (3-sigma, boxplot, medcouple)
-*   **Eye-irritation international validation & skin-sensitization pre-validation**: KTR (Jul. 2026 – present). Statistical analysis for test method validation
-*   **Oral mucosal irritation alternative test method (EpiOral™)**: Yonsei Univ. College of Dentistry (2025). Linear mixed models + ROC (Youden) to validate the 50% cut-off against OECD TG 439; ICC 0.997–1.000
-*   **Fluid-bed coating process QC**: Kolon Pharmaceuticals (2025). 25 batches / 56K time-series records; Wilcoxon + BH correction, B-spline functional data analysis with bootstrap to find the process variables behind assay and dissolution drops
+*   **Phototoxicity & eye-irritation alternative test methods**: Korea Testing & Research Institute (KTR) (2024). Statistical validation of reproducibility and decision criteria for animal-alternative test methods
+*   **Eye-irritation international validation & skin-sensitization pre-validation**: KTR (2026 – present). Statistical analysis for test method validation
+*   **Oral mucosal irritation alternative test method**: Yonsei Univ. College of Dentistry (2025). Statistical validation of the decision criterion and agreement of the test method
+*   **Fluid-bed coating process data analysis**: Kolon Pharmaceuticals (2025). Time-series analysis of manufacturing data to identify process variables affecting product quality
 *   **Multiscale reconstruction and comparison of high-dimensional chromatin structure**: CNU (2024 – present). Hi-C contact-matrix preprocessing and multiscale structural analysis
 
 </details>
