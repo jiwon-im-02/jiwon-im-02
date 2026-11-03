@@ -31,12 +31,12 @@ I care about data quality and reproducibility: I work out where a model or a dec
 
 *   **Robust Skeleton-Based Physical Distress Detection via Illumination-Aware Graph Convolutional Networks**: ISCB-GMDS 2026, Freiburg, Germany (Sep. 2026), Poster
 *   **Robust Spatio-Temporal Graph Modeling for Behavior Monitoring under Heterogeneous Environments**: EcoSta 2026, Kyoto, Japan (Aug. 2026), Poster
-*   **저조도 환경 내 이상행동 탐지 안정화 기법: 조도 적응형 시공간 그래프 임베딩**: Korean Society for Quality Management Spring Conf. (May 2026), 🏆 Best Paper Presentation Award
-*   **Robust Physical Distress Detection in Low-Light Environments via ST-GCN**: Korean Data & Information Science Society Spring Conf. (May 2026), 🏆 Paper Presentation Award
-*   **무인점포 안전관리를 위한 Skeleton-Context 기반 실시간 이상행동 탐지 모델**: Korean Data Analysis Society Winter Conf. (Nov. 2025), Oral, 🏆 Encouragement Award
-*   **Wavelet Scattering Meet Transformers: Detecting Anomalies in Robotic Trajectories** (co-author): Korean Data Analysis Society Winter Conf. (Nov. 2025), Poster, 🏆 Encouragement Award
+*   **저조도 환경 내 이상행동 탐지 안정화 기법: 조도 적응형 시공간 그래프 임베딩**: 한국품질경영학회 춘계학술대회 (2026.05), 🏆 우수발표논문상
+*   **Robust Physical Distress Detection in Low-Light Environments via ST-GCN**: 한국데이터정보과학회 춘계학술대회 (2026.05), 🏆 논문발표상 장려상
+*   **무인점포 안전관리를 위한 Skeleton-Context 기반 실시간 이상행동 탐지 모델**: 한국자료분석학회 동계학술대회 (2025.11), 구두 발표, 🏆 장려상 (구두논문 부문)
+*   **Wavelet Scattering Meet Transformers: Detecting Anomalies in Robotic Trajectories** (공동저자): 한국자료분석학회 동계학술대회 (2025.11), 포스터, 🏆 장려상 (포스터논문 부문)
 *   **Integrating High-Dimensional Hi-C Data with Sparse Graph Neural Networks for Enhanced Colorectal Cancer Prediction**: ISCB 2025, Basel, Switzerland (Aug. 2025), Poster
-*   **Sparse Graph Neural Networks for High-dimensional Genomic Data Integration**: Korean Statistical Society Summer Conf. (Jun. 2025), Poster
+*   **Sparse Graph Neural Networks for High-dimensional Genomic Data Integration**: 한국통계학회 하계학술대회 (2025.06), 포스터
 
 </details>
 
@@ -54,24 +54,24 @@ I care about data quality and reproducibility: I work out where a model or a dec
 
 *   **🏪 OneWay Guard: Real-Time Abnormal Behavior Detection for Unmanned Stores** (2025, team lead)  
     End-to-end prototype: YOLOv8-Pose 17-joint sequences + ResNet scene features → CTR-GCN classifier → TorchScript export → React (Vite) PWA real-time monitoring dashboard. Joint-confidence thresholds set from normal-condition data distributions, with Kalman filter smoothing.  
-    → 🏆 **Excellence Award**, CNU Data Science Challenge (28 teams). `PyTorch` `TorchScript` `React` `PWA`
+    → 🏆 **우수상**, 충남대 Data Science Challenge (28개 팀). `PyTorch` `TorchScript` `React` `PWA`
 
 *   **🤖 Wavelet Scattering + Transformer for Robotic Trajectory Anomaly Detection** (2025, co-author)  
     Unsupervised anomaly detection on multivariate sensor time series trained on normal patterns only: wavelet scattering features that are robust to time shifts, plus a Transformer encoder for temporal dependencies. Catches subtle vibration bursts and frequency drift. `Time Series` `Transformer`
 
-*   **🚛 ROUTE:ONE: Empty-Trip-Aware Container Truck Dispatch Recommender** (2026 K-Data Science Hackathon)  
+*   **🚛 ROUTE:ONE: Empty-Trip-Aware Container Truck Dispatch Recommender** (2026 K-DATA SCIENCE 해커톤)  
     On 16K container-transport records (3 months), a rule-based module first identifies empty-trip segments (recall 95.9%, precision 88.6%). A LightGBM model with 30 features then predicts when a subcontracted truck will be needed, validated on a time-based split (Jan–Feb train / Mar test), and a scoring engine recommends company-owned trucks for each new order. Served as a Flask web app with map-based route comparison and dispatch confirmation.  
-    → ROC-AUC **0.845** (beats logistic regression and rule baselines); 🏆 **Creativity Award** (finalist out of 26 teams). `LightGBM` `Flask` `Logistics`
+    → ROC-AUC **0.845** (beats logistic regression and rule baselines); 🏆 **창의상** (본선 26개 팀). `LightGBM` `Flask` `Logistics`
 
-*   **✍️ AI Handwritten Signature Verification** (2025 K-Data Science Hackathon)  
+*   **✍️ AI Handwritten Signature Verification** (2025 K-DATA SCIENCE 해커톤)  
     Dual verification: a Siamese CNN for image similarity and an RNN for behavioral time series (speed, pressure, trajectory), run independently to reduce both false accepts and false rejects.  
-    → 🏆 **Creativity Award** (finalist out of 26 teams). `CNN` `RNN` `Siamese Network`
+    → 🏆 **창의상** (본선 26개 팀). `CNN` `RNN` `Siamese Network`
 
-*   **💬 Network-Based Emotion Analysis for Social Isolation** (2024 K-Data Science Hackathon)  
+*   **💬 Network-Based Emotion Analysis for Social Isolation** (2024 K-DATA SCIENCE 해커톤)  
     SBERT embeddings of ~1,200 AI Hub emotional dialogues → PCA (768→50) → soft-cosine similarity graph → GraphSAGE emotion classification.  
-    → 🏆 **Creativity Award** (finalist out of 26 teams). `NLP` `SBERT` `GraphSAGE`
+    → 🏆 **창의상** (본선 26개 팀). `NLP` `SBERT` `GraphSAGE`
 
-*   **🗺️ Spatial Analysis of Vacant Houses and Crime in Busan** (2024 Statistics Data Utilization Contest)  
+*   **🗺️ Spatial Analysis of Vacant Houses and Crime in Busan** (2024 통계데이터활용대회)  
     GIS + geographically weighted regression (GWR) to model regional heterogeneity, using Statistics Korea microdata. `R` `GWR` `Spatial Statistics`
 
 <details>
@@ -115,13 +115,13 @@ I care about data quality and reproducibility: I work out where a model or a dec
 
 ### 🏆 Awards & Honors
 
-*   🥇 **Best Paper Presentation Award**, Korean Society for Quality Management (May 2026, 67 papers)
-*   🥈 **Paper Presentation Award (Encouragement)**, Korean Data & Information Science Society (May 2026, 46 papers)
-*   💡 **Creativity Award**, K-Data Science Hackathon: **2024, 2025, 2026** (3 years in a row)
-*   🏅 **Excellence Award**, CNU Data Science Challenge (Nov. 2025)
-*   🏅 **Encouragement Awards (Oral & Poster)**, Korean Data Analysis Society (Nov. 2025)
-*   🏅 **President's Award**, Korean Statistical Society (Feb. 2025)
-*   🎓 **Graduate Merit Scholarship (Science & Engineering)**, Ministry of Science and ICT (2026 – present)
+*   🥇 **우수발표논문상**, 한국품질경영학회 (2026.05, 67편 중)
+*   🥈 **논문발표상 장려상**, 한국데이터정보과학회 (2026.05, 46편 중)
+*   💡 **창의상**, K-DATA SCIENCE 해커톤: **2024, 2025, 2026** (3년 연속)
+*   🏅 **우수상**, 충남대 Data Science Challenge (2025.11)
+*   🏅 **장려상 (구두논문·포스터논문 부문)**, 한국자료분석학회 (2025.11)
+*   🏅 **학회장상**, 한국통계학회 (2025.02)
+*   🎓 **석사 우수장학금 (이공계)**, 과학기술정보통신부 (2026.03 – 현재)
 
 * * *
 
